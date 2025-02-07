@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+
 :root {
   font-family: 'Inter Tight', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -15,7 +17,7 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  /*color: #646cff;*/
   text-decoration: inherit;
 }
 a:hover {
@@ -33,7 +35,7 @@ body {
   background-repeat: no-repeat no-repeat;
   background-position: center center;
   margin: 0;
-  place-items: center;
+  /*place-items: center;*/
   min-width: 320px;
   min-height: 100vh;
 }
@@ -43,6 +45,7 @@ h1 {
   line-height: 1.1;
 }
 
+/*
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -54,6 +57,7 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+*/
 button:hover {
   border-color: #646cff;
 }
@@ -84,6 +88,7 @@ main {
   align-items: center;
 }
 
+/*
 tr {
   border-radius: 10px;
   background-color: #000;
@@ -93,6 +98,8 @@ tr {
 tbody tr:nth-child(odd) {
   background-color: #333333;
 }
+
+*/
 
 .nav {
   display: flex;
@@ -118,3 +125,5 @@ tbody tr:nth-child(odd) {
   width: 80vw;
   table-layout: fixed;
 }
+
+@import "tailwindcss";
